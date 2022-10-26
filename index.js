@@ -52,7 +52,6 @@ function contact(event) {
     .catch((err) => {
       loading.classList.remove("modal__overlay--visible");
       fail.classList += " modal__overlay--visible";
-      console.log(err);
     });
 }
 
