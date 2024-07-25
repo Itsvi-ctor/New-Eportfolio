@@ -59,9 +59,10 @@
         <h1 class="title">Hey</h1>
         <h1 class="title orange">I'm Victor.</h1>
         <p class="header__para">
-          I'm a <b class="orange">Frontend Software Engineer</b> with a strong passion for building web applications
-          with great user
-          experiences.
+          I'm a <b class="orange">Backend Software Engineer</b> passionate about crafting clean, efficient code that
+          manages data and application logic for web
+          applications.
+
           <br>
           Here's a bit more <b class="orange click" onclick="toggleModal()">about me</b>.
         </p>
@@ -89,15 +90,46 @@
     <div class="modal">
       <div class="modal__half modal__about">
         <h3 class="modal__title modal__title--about">Here's some information about myself.</h3>
-        <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
+        <h4 class="modal__sub-title modal__sub-title--about">Backend Software Engineer.</h4>
         <p class="modal__para">
-          I'm an 18 year-old Nigerian <b class="orange">frontend software developer</b> Who specializes in creating
-          user-friendly websites.<br> I've worked on team projects, which has helped me acquire <b
-            class="orange">excellent social skills</b>, and
-          I'm currently using <b class="orange">React js</b> and <b class="orange">JavaScript</b> to solve really
+          I'm a 19 year-old Nigerian <b class="orange">backend software developer</b> who specializes in building
+          robust and scalable APIs that power exceptional user experiences.
+          <br> I've worked on team projects, which has helped me acquire <b class="orange">excellent social skills</b>,
+          and
+          I'm currently using <b class="orange">Node js</b> and <b class="orange">ExpressJs</b> to solve really
           complex engineering challenges every day.
         </p>
         <div class="modal__languages">
+          <figure class="modal__language">
+            <img class="modal__language--img" src="./nodejs-icon.svg" alt="Tailwind logo">
+            <span class="language__name">NodeJs</span>
+          </figure>
+          <figure class="modal__language">
+            <img class="modal__language--img" src="./icons8-express-js-48.png" alt="Tailwind logo">
+            <span class="language__name">ExpressJs</span>
+          </figure>
+          <figure class="modal__language">
+            <img class="modal__language--img"
+              src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*xjlIi1Va0zO2fZb8p2S22w.png"
+              alt="Typescript logo">
+            <span class="language__name">Typescript</span>
+          </figure>
+          <figure class="modal__language">
+            <img class="modal__language--img" src="./mongodb.png" alt="MongoDB logo">
+            <span class="language__name">MongoDB</span>
+          </figure>
+          <figure class="modal__language">
+            <img class="modal__language--img" src="./icons8-postgresql-100.png" alt="Tailwind logo">
+            <span class="language__name">Postgresql</span>
+          </figure>
+          <figure class="modal__language">
+            <img class="modal__language--img" src="./icons8-mysql-48.png" alt="Tailwind logo">
+            <span class="language__name">MySQL</span>
+          </figure>
+          <figure class="modal__language">
+            <img class="modal__language--img" src="./icons8-graphql-48.png" alt="Tailwind logo">
+            <span class="language__name">GraphQL</span>
+          </figure>
           <figure class="modal__language">
             <img class="modal__language--img"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
@@ -117,25 +149,7 @@
           <figure class="modal__language">
             <img class="modal__language--img" src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
               alt="">
-            <span class="language__name">React</span>
-          </figure>
-          <figure class="modal__language">
-            <img class="modal__language--img"
-              src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*xjlIi1Va0zO2fZb8p2S22w.png"
-              alt="Typescript logo">
-            <span class="language__name">Typescript</span>
-          </figure>
-          <figure class="modal__language">
-            <img class="modal__language--img"
-              src="./tailwind-css-2.svg"
-              alt="Tailwind logo">
-            <span class="language__name">Tailwind</span>
-          </figure>
-          <figure class="modal__language">
-            <img class="modal__language--img"
-              src="./nodejs-icon.svg"
-              alt="Tailwind logo">
-            <span class="language__name">NodeJs</span>
+            <span class="language__name">ReactJs</span>
           </figure>
         </div>
       </div>
@@ -194,6 +208,34 @@
           Here are some of my <span class="orange">projects</span>
         </h1>
         <ul class="project__list">
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./jobify.png" class="project__img" alt="">
+              <div class="project__wrapper--bg"></div>
+              <div class="project__description">
+                <h3 class="project__description--title">
+                  Jobify
+                </h3>
+                <h4 class="project__description--sub-title">
+                  NodeJs, ExpressJs, MongoDB, Mongoose, Authentication
+                  <p class="project__description--para">
+                    This full-stack job board application empowers both job seekers and employers. Built with the MERN
+                    stack (Node.js,
+                    Express.js, MongoDB, Mongoose), it offers secure user authentication with options for both standard
+                    and debo accounts.
+                    Users can create and manage job postings, track applications, and leverage a powerful analytics
+                    dashboard to gain
+                    valuable insights for their career journey.
+                  </p>
+                  <div class="project__description--links">
+                    <a href="https://mern-jobify-app-1.onrender.com" target="_blank" class="project__description--link">
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </h4>
+              </div>
+            </div>
+          </li>
           <li class="project">
             <div class="project__wrapper">
               <img src="./SearchGithub-users.png" class="project__img" alt="">
